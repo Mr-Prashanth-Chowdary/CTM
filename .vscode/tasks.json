@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "tsc: watch - tsconfig.json",
+      "type": "typescript",
+      "script": "./node_modules/.bin/tsc",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": "$tsc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "tsconfig": "tsconfig.json",
+      "isBackground": true
+    },
+    {
+      "label": "tsc: build - tsconfig.json",
+      "type": "shell",
+      "command": "./node_modules/.bin/tsc",
+      "args": [
+          "-p",
+          "tsconfig.json"
+      ],
+      "group": "build",
+      "problemMatcher": "$tsc"
+    }
+  ]
+}

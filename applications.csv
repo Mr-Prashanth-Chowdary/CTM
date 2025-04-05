@@ -1,0 +1,5 @@
+firstName,userName,email,password,role
+DistributorCore,DistributorCore,distributorcore@application.com,DistributorCore@123,application
+Filesystem,Filesystem,filesystem@application.com,Filesystem@123,application
+Email,Email,email@application.com,Email@123,application
+Astute,Astute,astute@application.com,Astute@123,application

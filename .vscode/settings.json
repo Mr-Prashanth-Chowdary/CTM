@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jasmineExplorer.nodeArgv": ["-r", "ts-node/register", "-r", "dotenv/config"],
+  "jasmineExplorer.env": {
+    "DOTENV_CONFIG_PATH": ".env/test.env"
+  }
+}
